@@ -14,12 +14,12 @@ This game runs in the terminal and provides an engaging experience with round-ba
 
 2. Objective of the Project
 
-The main objective of this project is to:
- practice Python functions and loops
- use at least three modules
- create a simple but interactive command-line game
- apply conditional logic and user input validation
- build a complete mini-application
+ The main objective of this project is to:
+  practice Python functions and loops
+  use at least three modules
+  create a simple but interactive command-line game
+  apply conditional logic and user input validation
+  build a complete mini-application
 
 
 3. Functional Requirements
@@ -70,11 +70,11 @@ b. Performance:
 
 5. Modules Used
 
- a. random
-    Used to generate the computer’s choice.
+  a. random
+     Used to generate the computer’s choice.
 
- b. time
-    Used to add delay for countdown ("Rock Paper Scissor").
+  b. time
+     Used to add delay for countdown ("Rock Paper Scissor").
 
   c. os
      Used to clear the screen after each round for a smooth gameplay experience.
@@ -84,22 +84,21 @@ b. Performance:
 
 6. Code Explanation
 
-clear_screen()
+ clear_screen()
 
- Clears the terminal screen based on whether the system is windows.
+   Clears the terminal screen based on whether the system is windows.
 
-countdown()
+ countdown()
 
- Prints “Rock, Paper, Scissor” with small delays to make the game more dramatic.
+   Prints “Rock, Paper, Scissor” with small delays to make the game more dramatic.
 
-play_round()
+ play_round()
 
- Takes the user input, randomly chooses computer input, compares both, returns who won the round.
+   Takes the user input, randomly chooses computer input, compares both, returns who won the round.
 
+ game()
 
-game()
-
- Asks for number of rounds, keeps track of scores, runs all rounds, shows the final winner.
+   Asks for number of rounds, keeps track of scores, runs all rounds, shows the final winner.
 
 
 
