@@ -30,18 +30,12 @@ These are the things my project does:
 
 b. Validates that the user enters a correct option
 
-
  c. lets the computer randomly choose using the random module
-
-
  d. Adds a fun countdown effect using the time module
-
 
  e. Clears the screen after every round using the os module
 
-
  f. Plays multiple rounds based on user choice
-
 
  g. Calculates and displays scores after each round
 
